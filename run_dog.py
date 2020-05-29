@@ -4,13 +4,13 @@
 from dog_class import *
 
 # Initialize a Dog object -
-max_dog_instance = Dog()
-ringo_dog_instance = Dog('Ringo')
-
-print(max_dog_instance)
-
-print(max_dog_instance.name)
-print(ringo_dog_instance.name)
+# max_dog_instance = Dog()
+# ringo_dog_instance = Dog('Ringo')
+#
+# print(max_dog_instance)
+#
+# print(max_dog_instance.name)
+# print(ringo_dog_instance.name)
 
 # # Call the method .bark() on object
 #
