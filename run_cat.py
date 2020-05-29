@@ -1,8 +1,17 @@
 from cat_class import *
 
+# Initialize a Cat object -
+cat = Cat()
 
-#cat_intance = Cat()
+# Cat name
+print(cat.name)
 
+# To reassign name
+fluffy_cat_instance = Cat('Tigger')
+print(fluffy_cat_instance.name)
 
-print(Cat().stretch())
-print(Cat().eat(', give me food'))
+print(cat.stretch())
+print(cat.jumps())
+print(cat.eat(', give me food'))
+print(cat.pur())
+print(cat.sleep())
