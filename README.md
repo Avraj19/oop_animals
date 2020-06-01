@@ -29,17 +29,17 @@ Naming convention of the class file follows the same as any other. However when 
         - This cna be done by making attributes and/ methods private. meaning they cannot be accessed or modified outside of the class without calling specific methods first ie. getters and setters
         
     ```python
-        class Animal():
-            def __init__(self, colour, name, breed, sleepy, age):
-                self.colour = colour
-                self.__name = name.title()
-                self.breed = breed.title()
-                self.sleepy = sleepy
-                self.age = age
-            def set_name(self, name):
-                self.__name = name
-            def get_name(self):
-                return self.__name   
+    class Cat(Animals):
+
+        def __init__(self, name='', age=1, fur='White with gary strips', tail='fluffy tail'):
+            super().__init__(name, age=1, num_legs=4, tail=1)
+            # setting attribute name to instances of Dog class
+            self.__name = name
+            self.age = age
+            self.fur = fur
+            self.tail = tail
+            self.whiskers = 'long whiskers'
+            self.cat_eyes = 'perusing eyes that can tell the future' 
    ```
     
     - Inheritance
