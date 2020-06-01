@@ -7,7 +7,7 @@ cat = Cat()
 print(cat.name)
 
 # To reassign name
-fluffy_cat_instance = Cat('Tigger')
+fluffy_cat_instance = Cat('Tiger')
 print(fluffy_cat_instance.name)
 
 print(cat.stretch())
